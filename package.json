@@ -1,0 +1,22 @@
+{
+  "name": "gmbistro",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "George - Marius Baranga",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.32.1",
+    "fractional": "^1.0.0",
+    "regenerator": "^0.14.10",
+    "runtime": "^0.14.1",
+    "sass": "^1.66.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  }
+}
